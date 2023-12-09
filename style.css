@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('DSA.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div{
+  background-image: url('ASV.jpg');
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+ 
+}
+
+.contenedor {
+  text-align: center;
+}
+.invitacion {
+  background-color: #FFF0F5; /* Color de fondo del div */
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Centrar el div horizontalmente */
+}
+h1 {
+  color: #FF69B4;
+  font-size: 30px;
+  font-weight: 700; /* Usa la variante bold (700) de la fuente */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: #FF1493;
+  line-height: 1.6;
+  font-size: 22px;
+}
+
+strong {
+  color: blueviolet;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #f150a1;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #C71585;
+}
+.direccion-btn {
+  background-color: #f17ab6;
+  color: rgb(39, 6, 6);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: slateblue;
+  font-size: 20px;
+  transition: background-color 0.3s ease; /* Agregamos una transición suave al color de fondo */
+}
+.imgs {
+  max-width: 30%; /* La imagen se ajustará al ancho máximo del contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  display: block; /* Para asegurar que la imagen no tenga espacios no deseados */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+  border-radius: 10px; /* Añadir bordes redondeados a la imagen si deseas */
+}
